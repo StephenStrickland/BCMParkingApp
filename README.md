@@ -20,3 +20,9 @@ This app is used to manage parking at KSU BCM.
   * MemberId
   * Audit{CreateDateime, ModDatetime, UserMod,....}
   * ContactInformation{}
+
+
+
+
+### Dependencies
+* Realm (https://realm.io/docs/java/latest/)[https://realm.io/docs/java/latest/]

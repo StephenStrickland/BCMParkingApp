@@ -39,6 +39,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!--dashboard-->
+        <activity android:name=".activities.DashboardActivity" android:label="asdfasdf" android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

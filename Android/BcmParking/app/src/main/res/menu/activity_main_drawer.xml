@@ -6,23 +6,23 @@
         <item
             android:id="@+id/nav_dash"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Dashboard" />
+            android:title="@string/nav_dashboard" />
         <item
             android:id="@+id/nav_log_plates"
             android:icon="@drawable/ic_menu_camera"
-            android:title="Log Plates" />
+            android:title="@string/nav_log_plates" />
         <item
             android:id="@+id/nav_license_plates"
             android:icon="@drawable/ic_menu_manage"
-            android:title="License Plates" />
+            android:title="@string/nav_license_plates" />
         <item
             android:id="@+id/nav_members"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Parking Members" />
+            android:title="@string/nav_parking_members" />
         <item
             android:id="@+id/nav_users"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Users" />
+            android:title="@string/nav_users" />
 
     </group>
 
