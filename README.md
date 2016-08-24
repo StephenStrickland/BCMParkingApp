@@ -25,4 +25,9 @@ This app is used to manage parking at KSU BCM.
 
 
 ### Dependencies
-* Realm (https://realm.io/docs/java/latest/)[https://realm.io/docs/java/latest/]
+* Realm https://realm.io/docs/java/latest/
+
+
+
+### Resources
+* Project Structure http://blog.smartlogic.io/2013/07/09/organizing-your-android-development-code-structure
