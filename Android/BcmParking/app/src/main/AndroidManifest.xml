@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ksubcm.parking.bcmparking" >
+    package="com.ksubcm.parking.bcmparking">
 
     <!-- To auto-complete the email text field in the login form with the user's emails -->
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
@@ -12,10 +12,27 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme">
+
+        <!--login activity-->
         <activity
             android:name=".LoginActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name">
+
+        </activity>
+        <!--members activity-->
+        <activity
+            android:name=".activities.MembersActivity"
+            android:label="Members List" />
+        <!--license plates lists-->
+        <activity
+            android:name=".activities.LicensePlatesListActivity"
+            android:label="License Plates" />
+        <!--main activity, contains drawer and settings-->
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
