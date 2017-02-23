@@ -148,7 +148,7 @@ public class MainActivity extends AppCompatActivity
             fragment = new UsersListFragment();
         }
         Bundle args = new Bundle();
-
+args.putChar("key", 'v');
         fragment.setArguments(args);
 
         // Insert the fragment by replacing any existing fragment
