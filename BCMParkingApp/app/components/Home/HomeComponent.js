@@ -14,7 +14,7 @@ import {
     View
 } from 'react-native';
 import {  H1, Container, Content, Button,
-    Left, Right, Body, Icon,
+    Left, Right, Body, Icon, Label,
     Drawer, SideBar, Form, Item, Input, Text} from 'native-base';
 
 
@@ -46,6 +46,12 @@ export default class HomeComponent extends Component {
                 <Content padder>
                 <H1>Welcome to the BCM Parking App</H1>
                 <Text>This app was built to help maintain a list of current drivers and manage parking at BCM.</Text>
+
+
+                    <Item floatingLabel>
+                        <Label>Username</Label>
+                        <Input />
+                    </Item>
                 </Content>
 
             </Container>
